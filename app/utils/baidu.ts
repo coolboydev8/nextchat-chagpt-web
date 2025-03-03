@@ -1,8 +1,5 @@
 import { BAIDU_OATUH_URL } from "../constant";
-/**
- * 使用 AK，SK 生成鉴权签名（Access Token）
- * @return 鉴权签名信息
- */
+
 export async function getAccessToken(
   clientId: string,
   clientSecret: string,
